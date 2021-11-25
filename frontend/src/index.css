@@ -1,0 +1,14 @@
+main{
+  min-height: 100vh;
+}
+.rating span{
+  margin: 0.2 rem;
+}
+.pointer{
+  cursor: pointer;
+}
+.d-block{
+  width: 100%;
+  height: 40vh;
+  margin: 0px;
+}
