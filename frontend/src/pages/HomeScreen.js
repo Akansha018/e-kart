@@ -19,7 +19,7 @@ const HomeScreen = () => {
       <h1 className="text-center">Latest Products</h1>
       <Row>
         <Col>
-          {/* <Slider /> */}
+          <Slider />
         </Col>
       </Row>
       <Row>

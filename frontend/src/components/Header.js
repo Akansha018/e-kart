@@ -13,21 +13,21 @@ const Header = () => {
           <Navbar.Collapse id="responsive-navbar-nav">
             <Nav className="me-auto">
               <Nav.Link href="#features">
-                <i class="fas fa-home"></i> Home
+                <i className="fas fa-home"></i> Home
               </Nav.Link>
               <Nav.Link href="#pricing">
-                <i class="fas fa-message"></i> About-us
+                <i className="fas fa-message"></i> About-us
               </Nav.Link>
             </Nav>
             <Nav>
               <LinkContainer to="/signin">
                 <Nav.Link href="#deets">
-                  <i class="fas fa-user"></i> Signin
+                  <i className="fas fa-user"></i> Signin
                 </Nav.Link>
               </LinkContainer>
               <LinkContainer to="/cart">
                 <Nav.Link eventKey={2} href="#memes">
-                  <i class="fas fa-shopping-cart"></i> Cart
+                  <i className="fas fa-shopping-cart"></i> Cart
                 </Nav.Link>
               </LinkContainer>
             </Nav>
